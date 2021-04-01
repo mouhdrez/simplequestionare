@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1>Welcome To Polling</h1>
+    <p>Simple polling apps with django</p>
+    <a class="btn btn-dark" href="{% url 'polling:index' %}">
+        View all availables pollings</a
+      >
+  </div>
+  </div>
+{% endblock %}
